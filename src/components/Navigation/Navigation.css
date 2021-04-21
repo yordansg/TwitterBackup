@@ -1,0 +1,59 @@
+.root {
+  float: right;
+  margin: 6px 0 0;
+}
+
+.button {
+  height: 25px;
+  display: inline-block;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border: 1px solid #cccccc;
+  padding-left: 28px;
+  padding-right: 4px;
+  padding-top: 2px;
+  /* background-color: #1bb2e9; */
+  /* color: #f4f4f4; */
+  font-weight: bold;
+  font-size: 0.7em;
+  font-family: Arial;
+  background-color: #1baee4;
+  background: url('https://i.imgur.com/sO5Y2aG.png') no-repeat;
+  color: white;
+  text-decoration: none;
+  float: right;
+  cursor: pointer;
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1da1f2;
+  left: 40%;
+}
+
+li {
+  float: left;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4caf50;
+}
